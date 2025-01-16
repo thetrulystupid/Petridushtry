@@ -7,7 +7,7 @@ targetGround: true
 health: 120
 outlineColor: 2a2e35
 inaccuracy: 5
-reload: 38
+reload: 42
 shootCone: 3
 rotateSpeed: 2
 velocityRnd: 0.22
@@ -23,8 +23,8 @@ ammoTypes: {
 		damage: 6,
 		width: 3
 		height: 4
-		frontColor: ac3232
- 	        backColor: 7e3030
+		frontColor: 7e3030
+ 	        backColor: d95763
 		trailColor: 7e3030
 		trailLength: 2
 		trailWidth: 1
@@ -35,11 +35,11 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 3,
 		damage: 6,
-		width: 5
+		width: 6
 		height: 3
-		frontColor: ac3232
- 	        backColor: 7e3030
-		trailColor: 7e3030
+		frontColor: 5b6ee1
+ 	        backColor: 79b7ff
+		trailColor: 5b6ee1
 		trailLength: 2
 		trailWidth: 1
 		shootEffect: none,
@@ -54,9 +54,9 @@ ammoTypes: {
 		damage: 10,
 		width: 3
 		height: 4
-		frontColor: ac3232
- 	        backColor: 7e3030
-		trailColor: 7e3030
+		frontColor: 6abe30
+ 	        backColor: 99e550
+		trailColor: 6abe30
 		trailLength: 2
 		trailWidth: 1
                 splashDamage: 10
