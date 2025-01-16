@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Cellar
+description: A simple F-Type DNA construct to keep viruses away.
+size: 1
+targetAir: true
+targetGround: false
+health: 120
+outlineColor: 2a2e35
+inaccuracy: 2
+reload: 54
+shootCone: 3
+rotateSpeed: 2.5
+range: 125
+research: core-heart
+researchCost: [
+  F-DNA/40
+]
+ammoTypes: {
+	A-DNA: {
+		type: BasicBulletType
+		speed: 4,
+		damage: 11,
+		width: 3
+		height: 4
+		frontColor: d95763
+ 	        backColor: ac3232
+		trailColor: d95763
+		trailLength: 2
+		trailWidth: 1
+		status: burning
+		shootEffect: none,
+		ammoMultiplier: 2,
+	},
+	F-DNA: {
+		type: BasicBulletType
+		speed: 3,
+		damage: 4,
+		width: 3
+		height: 4
+		frontColor: 5b6ee1
+ 	        backColor: 79b7ff
+		trailColor: 5b6ee1
+		trailLength: 2
+		trailWidth: 1
+		status: freezing
+                splashDamage: 6
+                splashDamageRadius: 14
+		shootEffect: none,
+		ammoMultiplier: 2,
+		pierce: true
+		pierceCap: 2
+	},
+	W-DNA: {
+		type: ArtilleryBulletType
+		speed: 3,
+		damage: 6,
+		width: 6
+		height: 3
+		frontColor: 6abe30
+ 	        backColor: 99e550
+		trailColor: 6abe30
+		trailLength: 2
+		trailWidth: 2
+		status: corroded
+                splashDamage: 11
+                splashDamageRadius: 28
+		reloadMultiplier: 0.45
+		shootEffect: none,
+		ammoMultiplier: 2,
+		knockback: 0.9
+	},
+}
+requirements: [
+    F-DNA/20
+]
+category: turret
+shootSound: ftype-shoot-small
+squareSprite: false

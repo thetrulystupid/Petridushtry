@@ -6,12 +6,12 @@ targetAir: false
 targetGround: true
 health: 120
 outlineColor: 2a2e35
-inaccuracy: 5
-reload: 42
+inaccuracy: 4
+reload: 38
 shootCone: 3
 rotateSpeed: 2
-velocityRnd: 0.22
-range: 90
+velocityRnd: 0.18
+range: 110
 research: core-heart
 researchCost: [
   A-DNA/40
@@ -23,9 +23,9 @@ ammoTypes: {
 		damage: 6,
 		width: 3
 		height: 4
-		frontColor: 7e3030
+		frontColor: ac3232
  	        backColor: d95763
-		trailColor: 7e3030
+		trailColor: ac3232
 		trailLength: 2
 		trailWidth: 1
 		shootEffect: none,
@@ -35,7 +35,7 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 3,
 		damage: 6,
-		width: 6
+		width: 5
 		height: 3
 		frontColor: 5b6ee1
  	        backColor: 79b7ff
@@ -51,7 +51,7 @@ ammoTypes: {
 	W-DNA: {
 		type: BasicBulletType
 		speed: 3,
-		damage: 10,
+		damage: 8,
 		width: 3
 		height: 4
 		frontColor: 6abe30
@@ -59,9 +59,9 @@ ammoTypes: {
 		trailColor: 6abe30
 		trailLength: 2
 		trailWidth: 1
-                splashDamage: 10
+                splashDamage: 9
                 splashDamageRadius: 20
-		reloadMultiplier: 0.45
+		reloadMultiplier: 0.7
 		shootEffect: none,
 		ammoMultiplier: 2,
 	},

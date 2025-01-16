@@ -1,0 +1,88 @@
+type: ItemTurret
+name: Toxin
+description: A simple W-Type DNA construct to keep viruses away.
+size: 1
+targetAir: true
+targetGround: false
+health: 120
+outlineColor: 2a2e35
+inaccuracy: 8
+reload: 27
+shootCone: 3
+rotateSpeed: 2
+velocityRnd: 0.4
+range: 140
+research: core-heart
+researchCost: [
+  W-DNA/40
+]
+ammoTypes: {
+	A-DNA: {
+		type: BasicBulletType
+		speed: 4.5,
+		damage: 4,
+		width: 3
+		height: 4
+		frontColor: ac3232
+ 	        backColor: d95763
+		trailColor: ac3232
+		trailLength: 2
+		trailWidth: 1
+		shootEffect: none,
+		ammoMultiplier: 2,
+   		fragBullets: 4
+   		fragSpread: 75
+    		fragBullet: {
+   		   type: BasicBulletType
+   		   width: 2
+    		  height: 2
+  		    frontColor: ac3232
+   		   backColor: 7a3535
+    		  damage: 7
+    		  despawnEffect: none
+    }
+	},
+	F-DNA: {
+		type: BasicBulletType
+		speed: 5,
+		damage: 9,
+		width: 4
+		height: 2
+		frontColor: 5b6ee1
+ 	        backColor: 79b7ff
+		trailColor: 5b6ee1
+		trailLength: 3
+		trailWidth: 1
+		shootEffect: none,
+		ammoMultiplier: 2,
+		status: slow
+		knockback: 1.1
+	},
+	W-DNA: {
+		type: BasicBulletType
+		speed: 3,
+		damage: 3,
+		width: 2
+		height: 5
+		frontColor: 6abe30
+ 	        backColor: 99e550
+		trailColor: 6abe30
+		trailLength: 3
+		trailWidth: 1
+		reloadMultiplier: 1.3
+		shootEffect: none,
+		pierce: true
+		ammoMultiplier: 3,
+	},
+}
+requirements: [
+    W-DNA/20
+]
+category: turret
+shootSound: wtype-shoot-small
+squareSprite: false
+shoot: {
+  type: ShootAlternate
+  spread: 5
+  shotDelay: 5
+}  
