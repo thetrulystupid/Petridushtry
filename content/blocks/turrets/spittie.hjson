@@ -1,0 +1,41 @@
+type: ItemTurret
+name: Spittie
+description: A simple A-Type DNA construct to keep viruses away.
+size: 1
+targetAir: false
+targetGround: true
+health: 120
+outlineColor: 2a2e35
+inaccuracy: 3
+reload: 38
+shootCone: 3
+rotateSpeed: 2
+velocityRnd: 0.18
+range: 110
+research: core-heart
+researchCost: [
+  A-DNA/40
+]
+ammoTypes: {
+	A-DNA: {
+		type: BasicBulletType
+		speed: 3,
+		damage: 6,
+		width: 3
+		height: 4
+		trailColor: d9d9d9
+		trailLength: 2
+		trailWidth: 1
+		shootEffect: none,
+		ammoMultiplier: 2,
+	},
+}
+requirements: [
+    A-DNA/20
+]
+category: turret
+shootSound: atype-shoot-small
+squareSprite: false
+shoot: {
+   shots: 2
+}
