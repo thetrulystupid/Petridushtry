@@ -60,7 +60,7 @@ ammoTypes: {
 	},
 	W-DNA: {
 		type: BasicBulletType
-		speed: 3,
+		speed: 6.5,
 		damage: 3,
 		width: 2
 		height: 5
