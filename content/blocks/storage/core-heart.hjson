@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Heart
+description: The most important cluster, if this dies, the dish is lost. Stores a small amount of DNA or bacteria. Alive.
+requirements: [
+  W-DNA/450
+  F-DNA/450
+  A-DNA/450
+]
+isFirstTier: true
+size: 3
+unitType: evoke
+squareSprite: false
+health: 800
+itemCapacity: 1000
+unitCapModifier: 20
+alwaysUnlocked: true
+category: effect
+research: {
+  planet: petrier
+  root: true
+  name: Petrier
+}
