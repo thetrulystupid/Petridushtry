@@ -1,0 +1,13 @@
+type: Duct
+name: Simple Flagella
+description: Slowly pushes items forward. Can only hold a single item.
+category: distribution
+research: core-heart
+researchCost: [
+  F-DNA/15
+]
+speed: 4
+health: 15
+requirements: [
+  F-DNA/1
+]
