@@ -21,8 +21,8 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 4.5,
 		damage: 4,
-		width: 3
-		height: 4
+		width: 4.5
+		height: 6
 		frontColor: ac3232
  	        backColor: d95763
 		trailColor: ac3232
@@ -34,8 +34,8 @@ ammoTypes: {
    		fragSpread: 75
     		fragBullet: {
    		   type: BasicBulletType
-   		   width: 2
-    		  height: 2
+   		   width: 3
+    		  height: 4
   		    frontColor: ac3232
    		   backColor: 7a3535
     		  damage: 7
