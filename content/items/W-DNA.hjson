@@ -1,0 +1,8 @@
+name: W-Type DNA
+description: "A simple type of DNA used for defense. Wide and durable."
+hardness: 1
+cost: 1
+alwaysUnlocked: true
+color: 6abe30
+research: core-heart
+hiddenOnPlanets: [serpulo, erekir]

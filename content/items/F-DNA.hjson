@@ -1,0 +1,8 @@
+name: F-Type DNA
+description: "A simple type of DNA used for production. Weird and thoughtful."
+hardness: 1
+cost: 0.4
+alwaysUnlocked: true
+color: 5b6ee1
+research: core-heart
+hiddenOnPlanets: [serpulo, erekir]
