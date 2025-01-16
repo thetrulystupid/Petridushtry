@@ -6,12 +6,12 @@ targetAir: false
 targetGround: true
 health: 120
 outlineColor: 2a2e35
-inaccuracy: 4
+inaccuracy: 5
 reload: 38
 shootCone: 3
 rotateSpeed: 2
-velocityRnd: 0.18
-range: 110
+velocityRnd: 0.22
+range: 90
 research: core-heart
 researchCost: [
   A-DNA/40
@@ -61,7 +61,7 @@ ammoTypes: {
 		trailWidth: 1
                 splashDamage: 10
                 splashDamageRadius: 20
-		reloadMultiplier: 0.7
+		reloadMultiplier: 0.45
 		shootEffect: none,
 		ammoMultiplier: 2,
 	},
