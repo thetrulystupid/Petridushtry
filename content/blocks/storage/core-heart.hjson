@@ -15,8 +15,8 @@ itemCapacity: 1000
 unitCapModifier: 20
 alwaysUnlocked: true
 category: effect
-research: {
-  planet: petrier
-  root: true
-  name: Petrier
-}
+//research: {
+  //planet: petrier
+  //root: true
+  //name: Petrier
+//}
