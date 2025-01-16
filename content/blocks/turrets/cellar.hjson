@@ -3,7 +3,7 @@ name: Cellar
 description: A simple F-Type DNA construct to keep viruses away.
 size: 1
 targetAir: true
-targetGround: false
+targetGround: true
 health: 120
 outlineColor: 2a2e35
 inaccuracy: 2
@@ -51,7 +51,7 @@ ammoTypes: {
 		pierceCap: 2
 	},
 	W-DNA: {
-		type: ArtilleryBulletType
+		type: MissileBulletType
 		speed: 3,
 		damage: 6,
 		width: 6
