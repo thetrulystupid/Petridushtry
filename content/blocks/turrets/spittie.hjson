@@ -23,6 +23,9 @@ ammoTypes: {
 		damage: 6,
 		width: 3
 		height: 4
+		frontColor: ac3232
+ 	        backColor: 7e3030
+		trailColor: 7e3030
 		trailColor: d9d9d9
 		trailLength: 2
 		trailWidth: 1
