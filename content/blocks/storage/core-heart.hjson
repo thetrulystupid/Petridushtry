@@ -7,7 +7,7 @@ requirements: [
   A-DNA/450
 ]
 isFirstTier: true
-size: 3
+size: 2
 unitType: evoke
 squareSprite: false
 health: 800
