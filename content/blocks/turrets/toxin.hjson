@@ -38,8 +38,9 @@ ammoTypes: {
     		  height: 4
   		    frontColor: ac3232
    		   backColor: 7a3535
-    		  damage: 7
+    		  damage: 2
     		  despawnEffect: none
+		speed: 3
     }
 	},
 	F-DNA: {
