@@ -6,6 +6,7 @@ health: 480
 research: core-heart
 squareSprite: false
 researchCost: [
+   W-DNA/120
 requirements: [
   W-DNA/12
 ]
