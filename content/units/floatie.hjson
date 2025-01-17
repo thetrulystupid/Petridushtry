@@ -1,0 +1,31 @@
+type: flying
+name: Floatie
+description: Annoying pest that flies over buildings. Weak and fast.
+drag: 0.17
+outlineColor: 324421
+speed: 1.8
+rotateSpeed: 4
+accel: 0.075
+health: 70
+hitSize: 6
+itemCapacity: 10
+weapons: [
+ {
+   x: 0
+   y: -1
+   mirror: false
+   alternate: false
+   reload: 44
+   rotate: false
+   shootSound: wtype-shoot-small
+   bullet: {
+      type: BasicBulletType
+      length: 6
+      width: 6
+      damage: 11
+      frontColor: 6abe30
+      backColor: 99e550
+      trailColor: 6abe30
+      trailWidth: 1
+      trailLength: 1
+      speed: 2
