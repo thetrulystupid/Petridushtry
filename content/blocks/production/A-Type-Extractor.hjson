@@ -1,0 +1,31 @@
+type: AttributeCrafter
+attribute: geneA
+name: A-Type Extractor
+description: Extracts the aggressive A-Type DNA from A-Type Gene Pools.
+size: 2
+hasLiquids: true
+squareSprite: false
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+category: crafting
+research: core-heart
+outputItem: A-DNA/1
+requirements: [
+  F-DNA/18
+]
+//drawer: {
+  //type: DrawMulti
+  //drawers: [
+    //{
+      //type: DrawDefault
+    //}
+    //{
+      //type: DrawRegion
+      //suffix: -rotator
+      //spinSprite: true
+      //rotateSpeed: 0.5
+    //}
+  //]
+//}

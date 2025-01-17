@@ -1,0 +1,31 @@
+type: AttributeCrafter
+attribute: geneW
+name: W-Type Extractor
+description: Extracts the durable W-Type DNA from W-Type Gene Pools.
+size: 2
+hasLiquids: true
+squareSprite: false
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+outputItem: W-DNA/1
+category: crafting
+research: core-heart
+requirements: [
+  F-DNA/18
+]
+//drawer: {
+  //type: DrawMulti
+  //drawers: [
+    //{
+      //type: DrawDefault
+    //}
+    //{
+      //type: DrawRegion
+      //suffix: -rotator
+      //spinSprite: true
+      //rotateSpeed: 0.5
+    //}
+  //]
+//}
