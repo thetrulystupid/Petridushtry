@@ -3,7 +3,7 @@ name: Munchie
 description: Small, aggressive walker that spits at nearby enemies.
 speed: 0.8
 flying: false
-health: 170
+health: 260
 armor: 1
 outlineColor: 442525
 hitSize: 9
