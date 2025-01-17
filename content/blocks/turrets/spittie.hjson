@@ -11,7 +11,7 @@ reload: 38
 shootCone: 3
 rotateSpeed: 2
 velocityRnd: 0.18
-range: 110
+range: 90
 research: core-heart
 researchCost: [
   A-DNA/40
@@ -51,15 +51,15 @@ ammoTypes: {
 	W-DNA: {
 		type: BasicBulletType
 		speed: 3,
-		damage: 8,
+		damage: 6,
 		width: 3
 		height: 4
 		frontColor: 6abe30
  	        backColor: 99e550
 		trailColor: 6abe30
-		trailLength: 2
+		trailLength: 3
 		trailWidth: 1
-                splashDamage: 9
+                splashDamage: 6
                 splashDamageRadius: 20
 		reloadMultiplier: 0.7
 		shootEffect: none,
