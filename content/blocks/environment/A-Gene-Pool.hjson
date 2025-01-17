@@ -1,0 +1,11 @@
+type: Floor
+name: A-Type Gene Pool
+variants: 1
+speedMultiplier: 0.5
+isLiquid: true
+liquidDrop: none
+cacheLayer: water
+supportsOverlay: true
+attributes: {
+   geneA: 0.25
+}
