@@ -1,4 +1,5 @@
 type: flying
+flying: true
 name: Floatie
 description: Annoying pest that flies over buildings. Weak and fast.
 drag: 0.17
