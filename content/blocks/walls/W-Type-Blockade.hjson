@@ -2,9 +2,10 @@ type: Wall
 name: W-Type Blockade
 description: Simple brick of W-Type DNA that protects other clusters.
 size: 2
-health: 460
+health: 480
 research: core-heart
 squareSprite: false
+researchCost: [
 requirements: [
   W-DNA/12
 ]
