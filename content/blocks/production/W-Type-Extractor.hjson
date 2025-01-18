@@ -12,6 +12,7 @@ minEfficiency: 1
 outputItem: W-DNA/1
 category: crafting
 floating: true
+placeableLiquid: true
 research: core-heart
 requirements: [
   F-DNA/18
