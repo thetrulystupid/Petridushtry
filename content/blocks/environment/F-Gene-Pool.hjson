@@ -1,6 +1,6 @@
 type: Floor
 name: F-Type Gene Pool
-variants: 1
+variants: 0
 speedMultiplier: 0.5
 isLiquid: true
 cacheLayer: water
