@@ -1,0 +1,4 @@
+type: StaticWall
+name: Strange Barrier
+description: Weird and invisible wall. Seems to be made of.. Glass, whatever that is.
+variants: 2
