@@ -1,0 +1,14 @@
+type: Junction
+name: Flagella Bond
+description: Allows flagella strips to cross over eachother.
+category: distribution
+speed: 2.5
+health: 20
+squareSprite: false
+research: flagella
+researchCost: [
+  F-DNA/12
+]
+requirements: [
+  F-DNA/4
+]

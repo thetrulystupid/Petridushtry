@@ -1,0 +1,14 @@
+type: Router
+name: Flagella Fork
+description: Outputs items to 3 different sides.
+category: distribution
+speed: 7
+health: 20
+squareSprite: false
+research: flagella
+researchCost: [
+  F-DNA/40
+]
+requirements: [
+  F-DNA/4
+]
