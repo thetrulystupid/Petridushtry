@@ -1,0 +1,34 @@
+type: ContinuousTurret
+name: Disease
+description: Spits out a wide stream of incredibly hot DNA at nearby fliers.
+size: 2
+targetAir: true
+targetGround: false
+category: turret
+research: toxin
+researchCost: [
+  W-DNA/480
+  K-DNA/240
+]
+requirements: [
+   W-DNA/80
+   K-DNA/30
+]
+outlineColor: 
+ammoTypes: {
+   K-DNA
+     type: ContinuousFlameBulletType
+     length: 80
+     damage: 8
+     width: 3.5
+     colors: [5f9e33, 6abe30, 85c24b, 99e550]
+  }
+}
+range: 80
+shootSound: none
+loopSound: wtype-shoot-beam
+shootWarmupSpeed: 0.1
+shootCone: 360
+aimChangeSpeed: 4
+rotateSpeed: 2.5
+shootY: -1
