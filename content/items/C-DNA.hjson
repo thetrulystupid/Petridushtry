@@ -1,0 +1,8 @@
+name: C-Type DNA
+description: "A simple type of DNA used for assault and factories. Generic in a strange way."
+hardness: 1.15
+cost: 1.2
+alwaysUnlocked: false
+color: 7d35bb
+research: F-DNA
+hiddenOnPlanets: [serpulo, erekir]

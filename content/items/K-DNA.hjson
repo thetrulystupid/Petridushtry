@@ -1,0 +1,8 @@
+name: K-Type DNA
+description: "An advanced type of DNA used for defense and assault. Hyperactive and durable, also tastes strangely like a banana."
+hardness: 1.4
+cost: 1.5
+alwaysUnlocked: false
+color: fbf236
+research: W-DNA
+hiddenOnPlanets: [serpulo, erekir]
