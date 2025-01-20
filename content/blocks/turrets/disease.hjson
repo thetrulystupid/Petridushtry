@@ -16,7 +16,7 @@ requirements: [
 ]
 outlineColor: 
 ammoTypes: {
-	K-DNA: [
+	K-DNA: {
     		type: ContinuousFlameBulletType
     		length: 80
     		damage: 9
