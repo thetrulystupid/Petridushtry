@@ -22,7 +22,6 @@ ammoTypes: {
     		damage: 9
     		width: 3.5
     		colors: [5f9e33, 6abe30, 85c24b, 99e550]
-      }
 }
 range: 80
 shootSound: none
