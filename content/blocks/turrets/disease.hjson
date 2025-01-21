@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: ContinuousLiquidTurret
 name: Disease
 description: Spits out a wide stream of incredibly hot DNA at nearby fliers.
 size: 2
@@ -20,7 +20,7 @@ ammoTypes: {
     		type: ContinuousFlameBulletType
     		length: 80
 		height: 80
-    		damage: 9
+    		damage: 5
     		width: 3.5
     		colors: [5f9e33, 6abe30, 85c24b, 99e550]
       }
@@ -28,7 +28,7 @@ range: 80
 shootSound: none
 loopSound: wtype-shoot-beam
 shootWarmupSpeed: 0.1
-shootCone: 360
+shootCone: 120
 aimChangeSpeed: 4
 rotateSpeed: 2.5
 shootY: -1
